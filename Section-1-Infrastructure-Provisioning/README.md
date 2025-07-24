@@ -1,6 +1,6 @@
 ## Section 1 – Part 1: Shared Storage Layer
 
-I updated the Terraform configuration in the Infrastructure Provisioning folder to provision three individual S3 buckets for Application logs, Service backups, Application data. These buckets have been configured to allow:
+I updated the Terraform configuration found within the `Code` directory to provision three individual S3 buckets for Application logs, Service backups, Application data. These buckets have been configured to allow:
 
 - Server-side encryption
 
@@ -10,9 +10,7 @@ I updated the Terraform configuration in the Infrastructure Provisioning folder 
 
 
 ## Section 1 - Part 2: Access to S3 Buckets
-I updated the Terraform code to enable an EC2 instance to read from and write to the S3 buckets provisioned earlier.
-
-This involved:
+I updated the Terraform configuration found within the `Code` directory to enable an EC2 instance to read from and write to the S3 buckets provisioned earlier This involved:
 
 - Creating an IAM role with the required permissions
 
