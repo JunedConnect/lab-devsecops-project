@@ -26,4 +26,6 @@ Additionally, I set up an IAM user attached to a group. This group has the acces
 
 - List all S3 buckets
 
+<br>
+
 This setup ensured both programmatic and instance-level access were handled securely and aligned with the principle of least privilege.
