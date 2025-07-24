@@ -8,6 +8,7 @@ I updated the Terraform configuration found within the `Code` directory to provi
 
 - Blocking all public access
 
+<br>
 
 ## Section 1 - Part 2: Access to S3 Buckets
 I updated the Terraform configuration found within the `Code` directory to enable an EC2 instance to read from and write to the S3 buckets provisioned earlier. This involved:
