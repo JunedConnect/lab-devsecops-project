@@ -1,4 +1,4 @@
-Potential Security/Operational issues noted with the current Terraform files found within the `Code` directory:
+Potential Security/Operational issues noted with the current Terraform files found within the `code` directory:
 
 <br>
 
